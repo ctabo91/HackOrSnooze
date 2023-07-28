@@ -1,0 +1,47 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: #808080;
+  font-size: 0.8rem;
+  margin: 10px 0;
+  border-bottom: solid 1px #dbd5d5;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: 550;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  margin-left: 1.5em;
+  padding-top: 1em;
+  color: #0a7e0a;
+  font-weight: 600;
+}
+
+.story-user {
+  display: block;
+  margin-left: 1.5em;
+  padding: 1em 0;
+  color: #f7752a;
+  font-weight: 600;
+}
